@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-phone-bridge",
+  "name": "Obsidian Phone Bridge",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Connect Obsidian mobile to paired assistant tools for searching, editing, moving, and inserting notes.",
+  "author": "Obsidian Phone Bridge",
+  "isDesktopOnly": false
+}

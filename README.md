@@ -25,3 +25,10 @@ Copy and paste this into ChatGPT after installing and connecting the plugin:
 ## Important limitation
 
 This package uses a local stdio MCP server, so the computer running the host must be able to access the vault. Phone or hosted Work access requires a secured remote MCP deployment or an Obsidian sync/REST bridge; do not expose the vault directory or an unauthenticated endpoint.
+
+
+## Obsidian Mobile phone bridge
+
+For direct assistant tools on Obsidian Mobile, see [phone-bridge/README.md](./phone-bridge/README.md). The download is [obsidian-phone-bridge-0.1.0.zip](./phone-bridge/release/obsidian-phone-bridge-0.1.0.zip).
+
+The public relay page contains setup information only. Phone requests require the paired token, and assistant tools require a signed-in Site identity. A `401 Unauthorized` response means a request lacked valid authentication; the relay rejects it without returning vault data.
